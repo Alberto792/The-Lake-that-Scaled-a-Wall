@@ -5,7 +5,7 @@
 # Define inputs
 ####
 
-firstNumber <- 4
+firstNumber <- "4"
 secondNumber <- 35
 thirdNumber <- 6
 
@@ -44,3 +44,5 @@ if(firstNumber > secondNumber){
 }
 #cat the result to the console
 cat("\tnumber one ",firstNumber, "\tnumber two ",secondNumber,"\tnumber three ",thirdNumber,"\tResults ",result,sep="")
+
+#how to change text into numbers
