@@ -13,3 +13,9 @@ cat("\tHeads ",heads, "\tTails ",tails,"\tResults ",result,sep="")
 
 
 
+
+
+
+cat(exampleVector==20)
+
+

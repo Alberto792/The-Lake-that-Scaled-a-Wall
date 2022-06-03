@@ -15,7 +15,9 @@ thirdNumber <- 6
 ####
 
 #Introduce Alfunction 
-
+#convert the string into an interger
+firstNumber<-strtoi(firstNumber)
+firstNumber <- as.numeric(firstNumber)
 AlFunction<-function(x){x <- (x+1)
 x<-round(x)
 return(x) 
@@ -27,7 +29,7 @@ return(y)
 }
 
 #Introduce firstNumber with AlFunction
-firstNumber<-AlFunction(x=firstNumber)
+firstNumber<-AlFunction(firstNumber)
 
 # multiply second number by 0.75
 secondNumber <- BlFunction(y=secondNumber)
@@ -46,3 +48,6 @@ if(firstNumber > secondNumber){
 cat("\tnumber one ",firstNumber, "\tnumber two ",secondNumber,"\tnumber three ",thirdNumber,"\tResults ",result,sep="")
 
 #how to change text into numbers
+#as.numeric is more forgiving when converting imaginary numbers into real numbers
+#handles decimals 
+
