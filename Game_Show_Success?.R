@@ -1,5 +1,5 @@
 #introduce new varible 
-set.seed(5)
+set.seed(7)
 Wins<-0
 Lose<-0
 ###
