@@ -1,10 +1,12 @@
 #introduce new varible 
-set.seed(7)
+set.seed(13)
 Wins<-0
 Lose<-0
 ###
 megatron<-1000
 chosen_door<-sample(c("Goat_13","Goat_007","Ford_150"),1)
+Switching_Doors<-sample(c("Goat_007","Goat_13"),1)
+
 ###
 for (Alberto_door in 1:megatron) {
   chosen_door <- sample(c("Goat_13","Goat_007","Ford_150"),1)
